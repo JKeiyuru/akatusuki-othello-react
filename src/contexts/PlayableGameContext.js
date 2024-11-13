@@ -1,6 +1,8 @@
 // src/contexts/PlayableGameContext.js
 import React, { createContext, useState, useCallback } from 'react';
-import { getValidMove, getValidMoves, makeMove, calculateScores, isGameOver } from '../utils/gameLogic';
+// import { getValidMove, getValidMoves, makeMove, calculateScores, isGameOver } from '../utils/gameLogic';
+import {  getValidMoves, makeMove, calculateScores,  } from '../utils/gameLogic';
+
 
 export const PlayableGameContext = createContext();
 
@@ -61,7 +63,6 @@ export const PlayableGameProvider = ({ children }) => {
     setScores({ black: 2, white: 2 });
     setValidMoves(getValidMoves(initialBoard, 'B'));
   }, []);
-
   const value = {
     board,
     currentPlayer,
