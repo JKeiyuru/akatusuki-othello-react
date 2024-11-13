@@ -1,7 +1,7 @@
 // src/App.js
 import React from 'react';
 import { GameProvider, GameContext } from './contexts/GameContext';
-import { PlayableGameProvider } from './contexts/PlayableGamecontext';
+import { PlayableGameProvider } from './contexts/PlayableGameContext';
 import Header from './components/Header/Header';
 import Section from './components/Section/Section';
 import GameBoard from './components/GameBoard/GameBoard';

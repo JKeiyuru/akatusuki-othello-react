@@ -1,6 +1,6 @@
 // src/components/PlayableGame/GameStatus.js
 import React, { useContext } from 'react';
-import { PlayableGameContext } from '../../contexts/PlayableGamecontext';
+import { PlayableGameContext } from '../../contexts/PlayableGameContext';
 
 const GameStatus = () => {
   const { currentPlayer, scores, gameOver, resetGame } = useContext(PlayableGameContext);

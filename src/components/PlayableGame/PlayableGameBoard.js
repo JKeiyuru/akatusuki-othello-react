@@ -1,6 +1,6 @@
 // src/components/PlayableGame/PlayableGameBoard.js
 import React, { useContext } from 'react';
-import { PlayableGameContext } from '../../contexts/PlayableGamecontext';
+import { PlayableGameContext } from '../../contexts/PlayableGameContext';
 import './PlayableGameBoard.css';
 
 const PlayableGameBoard = () => {
