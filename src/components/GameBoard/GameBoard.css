@@ -1,0 +1,23 @@
+.game-board {
+    @apply w-96 mx-auto my-5;
+  }
+  
+  .board-grid {
+    @apply grid grid-cols-8 gap-0.5;
+  }
+  
+  .cell {
+    @apply aspect-square bg-green-500 flex items-center justify-center;
+  }
+  
+  .disc {
+    @apply w-4/5 h-4/5 rounded-full;
+  }
+  
+  .disc.black {
+    @apply bg-black;
+  }
+  
+  .disc.white {
+    @apply bg-white;
+  }
