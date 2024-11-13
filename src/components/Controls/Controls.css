@@ -1,0 +1,7 @@
+.controls {
+    @apply text-center my-5;
+  }
+  
+  .control-button {
+    @apply bg-green-600 text-white px-5 py-2.5 rounded mx-2 hover:bg-green-700 disabled:opacity-50;
+  }
