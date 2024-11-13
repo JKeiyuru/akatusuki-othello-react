@@ -1,0 +1,8 @@
+/* // src/components/Header/Header.css */
+.header {
+    @apply bg-green-300 text-white text-center p-4;
+  }
+  
+  .header h1 {
+    @apply text-3xl font-bold text-black;
+  }
