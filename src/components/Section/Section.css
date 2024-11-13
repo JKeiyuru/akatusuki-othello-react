@@ -1,0 +1,9 @@
+/* // src/components/Section/Section.css */
+.section {
+    @apply my-8;
+  }
+  
+  .section h2 {
+    @apply text-2xl font-bold text-black mb-4;
+  }
+  

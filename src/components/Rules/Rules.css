@@ -1,0 +1,8 @@
+/* / src/components/Rules/Rules.css */
+.rules-list {
+    @apply list-decimal pl-6 space-y-4;
+  }
+  
+  .rules-note {
+    @apply mt-4 italic;
+  }

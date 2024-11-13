@@ -1,0 +1,5 @@
+/* // src/components/Footer/Footer.css */
+.footer {
+    @apply text-center py-4 mt-8 border-t;
+  }
+  

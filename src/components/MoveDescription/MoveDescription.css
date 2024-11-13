@@ -1,0 +1,4 @@
+/* / src/components/MoveDescription/MoveDescription.css */
+.move-description {
+    @apply text-center italic my-5;
+  }
