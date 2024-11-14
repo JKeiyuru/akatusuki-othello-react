@@ -32,6 +32,14 @@ const App = () => {
           two black discs and White places two white discs in the initial position.
         </p>
         <GameBoard boardState={initialState} />
+        <p>A move consists of "outflanking" your opponent's disc(s), then flipping the outflanked disc(s) to your colour.</p>
+            <p>To outflank means to place a disc on the board so that your opponent's row (or rows) of disc(s) is bordered at each end by a disc of your colour. (A "row" may be made up of one or more discs).</p>
+            <p>Here's one example:</p>
+            <img src="./Assets/othelo1.png" alt="Example 1"/>
+            <p>White disc A was already in place on the board.
+                 The placement of white disc B outflanks the row of three black discs.
+                 White flips the outflanked discs and now the row looks like this:</p>
+            <img src="./Assets/othello2.png" alt="Example 2"/> 
       </Section>
 
       <Rules />
